@@ -1,7 +1,12 @@
 version = 1
 
 [[analyzers]]
-name = "go"
+name = "javascript"
 
   [analyzers.meta]
-  import_root = "github.com/pankajmouriya/Gigarepo_"
+  plugins = [
+    "react",
+    "angularjs",
+    "angular"
+  ]
+  environment = ["nodejs"]
