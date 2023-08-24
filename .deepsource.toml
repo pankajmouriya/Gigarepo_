@@ -1,25 +1,4 @@
 version = 1
 
 [[analyzers]]
-name = "javascript"
-
-  [analyzers.meta]
-  plugins = [
-    "react",
-    "angular",
-    "vue",
-    "ember",
-    "meteor",
-    "angularjs"
-  ]
-  environment = [
-    "nodejs",
-    "browser",
-    "jest",
-    "mocha",
-    "jasmine",
-    "vitest",
-    "cypress",
-    "mongo",
-    "jquery"
-  ]
+name = "cxx"
